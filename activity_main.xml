@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#E6CAB4"
+    android:gravity="center"
+    android:keepScreenOn="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/title"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="100dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/player"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="60dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#BB7841"
+        android:onClick="startGame"/>
+
+</LinearLayout>
+
